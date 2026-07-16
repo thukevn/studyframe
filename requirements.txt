@@ -1,0 +1,38 @@
+# StudyFrame Backend Python Dependencies
+
+# Web Framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+pydantic==2.7.0
+
+# AI / LLM
+google-generativeai==0.7.0
+
+# Google Cloud Services
+google-cloud-texttospeech==2.16.3
+google-auth==2.29.0
+google-api-python-client==2.130.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+
+# Video Assembly
+moviepy==1.0.3
+imageio==2.34.0
+imageio-ffmpeg==0.5.1
+Pillow==10.3.0
+numpy==1.26.4
+
+# HTTP / Async
+aiohttp==3.9.5
+websockets==12.0
+httpx==0.27.0
+
+# Notion Integration
+notion-client==2.2.1
+
+# Leonardo AI (fallback image generation)
+requests==2.31.0
+
+# Utilities
+python-dotenv==1.0.1
+python-multipart==0.0.9
